@@ -45,12 +45,14 @@ a{
 
 body{
 	font-family: 'Lato', sans-serif;
-	padding: 10% 10%;
+	padding: 8% 10%;
+	padding-bottom: 5%;
 	font-weight: 300;
 	line-height: 1.5rem;
 	letter-spacing: 0.3px;
 	background-color: #222;
 	color: white;
+	box-sizing: border-box;
 }
 
 .container{
@@ -64,23 +66,49 @@ body{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-bottom: 1em;
 }
 
 .project{
 	margin: 5vh 0;
+	background-color: black;
+	padding: 8px;
+	box-shadow: 1px 1px 4px 4px rgba(0,0,0,0.1);
+}
+
+.text{
+	background-color: black;
+	color: rgba(255,255,255,0.8);
+	padding-top: 10px;
+	padding-bottom: 4px;
+	text-align: center;
+}
+
+figure{
+	background: #222;
+	overflow: hidden;
+	width: 21vw;
+	height: 21vw;
+    margin: 0;
+}
+
+figure:hover{
+	bottom: -30px;
+	opacity: 1;
 }
 
 img.display{
-	width: 22vw;
-	filter: grayscale(20%) contrast(90%) brightness(90%);
-	box-shadow: 1px 1px 5px 3px rgba(0,0,0,0.05);
-	transition: 0.5s;
+	width: 100%;
+	height: 100%;
+	filter: grayscale(40%) contrast(90%) brightness(90%);
+	transition: 0.8s;
+	transform: scale(1);
 }
 
 img.display:hover{
     filter: grayscale(0%) contrast(105%) brightness(105%);
     transition: 0.5s;
-    transform: scale(1.01);
+    transform: scale(1.03);
 }
 
 img.detail{
@@ -112,7 +140,7 @@ iframe{
 .heading{
 	font-weight: 400;
 	font-size: 2rem;
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 }
 
 .intro{
@@ -137,3 +165,8 @@ iframe{
 	align-items: center;
 }
 
+footer{
+	font-size: 0.8em;
+	margin-top: 5%;
+	text-align: left;
+}

@@ -72,13 +72,13 @@ body{
 
 img.display{
 	width: 22vw;
-	filter: grayscale(40%) contrast(90%);
+	filter: grayscale(20%) contrast(90%) brightness(90%);
 	box-shadow: 1px 1px 5px 3px rgba(0,0,0,0.05);
 	transition: 0.5s;
 }
 
 img.display:hover{
-    filter: grayscale(0%) contrast(105%);
+    filter: grayscale(0%) contrast(105%) brightness(105%);
     transition: 0.5s;
     transform: scale(1.01);
 }

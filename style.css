@@ -43,6 +43,14 @@ a{
   right: 0;
 }
 
+.back{
+	position: fixed;
+	top:5%;
+	left: 2.5%;
+	color: #EB7A77;
+	font-weight: 400;
+}
+
 body{
 	font-family: 'Lato', sans-serif;
 	padding: 8% 10%;

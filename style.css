@@ -63,6 +63,24 @@ body{
 	color: rgba(255,255,255,0.9);
 }
 
+.contact{
+	margin-bottom: 1em;
+}
+
+.smallbutton{
+    color: white;
+    margin-right: 20px;
+    opacity: 0.6;
+    padding-bottom: 1px;
+    border-bottom: 1px solid white;
+    transition: 0.2s;
+}
+
+.smallbutton:hover{
+	opacity: 0.9;
+	transition: 0.2s;
+}
+
 .container{
 	display: flex;
 	flex-direction: column;
@@ -151,7 +169,8 @@ iframe{
 }
 
 .intro{
-	margin: 2em 0;
+	margin-top: 2em;
+	margin-bottom: 1em;
 	width: 70%;
 	line-height: 1.8em;
 }
